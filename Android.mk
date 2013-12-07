@@ -1,3 +1,7 @@
-ifneq ($(filter g2,$(TARGET_DEVICE)),)
-    include $(all-subdir-makefiles)
+ifneq ($(filter vs980,$(TARGET_DEVICE)),)
+
+LOCAL_PATH := $(call my-dir)
+
+include $(call all-makefiles-under,$(LOCAL_PATH))
+
 endif
