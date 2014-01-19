@@ -23,9 +23,6 @@ on init
     mkdir /cache
     mkdir /OneSeg
     mount /tmp /tmp tmpfs
-    mount /dev/block/platform/msm_sdcc.1/by-name/cache /cache
-    rm /cache/*
-    umount /dev/block/platform/msm_sdcc.1/by-name/cache
 
 on boot
 

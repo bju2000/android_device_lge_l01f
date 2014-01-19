@@ -37,7 +37,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x105c0000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x105c0000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_PREBUILT_KERNEL := device/lge/L01F/kernAl
+TARGET_PREBUILT_KERNEL := device/lge/LGL22/kernAl
 
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
 
@@ -47,7 +47,7 @@ TARGET_PREBUILT_KERNEL := device/lge/L01F/kernAl
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
-#TARGET_RECOVERY_INITRC := device/lge/L01F/recovery/init-twrp.rc
+#TARGET_RECOVERY_INITRC := device/lge/LGL22/recovery/init-twrp.rc
 
 # TWRP specific build flags
 DEVICE_RESOLUTION := 1080x1920
