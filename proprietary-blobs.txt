@@ -44,7 +44,6 @@ bin/rmt_storage
 bin/qmuxd
 lib/libril.so
 bin/rild
-lib/liblgderp.so
 bin/netmgrd
 bin/sensors.qcom
 bin/thermald
