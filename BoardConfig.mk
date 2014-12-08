@@ -17,6 +17,7 @@
 include device/lge/g2-common/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := cyanogenmod_g2-dcm-perf_defconfig
+TARGET_REQUIRES_BUMP := true
 
 TARGET_OTA_ASSERT_DEVICE := d802,g2,galbi,d800,l01f
 
