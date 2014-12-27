@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
 
 # NFC packages
-# PRODUCT_PACKAGES += \
-#    nfc_nci.bcm2079x.default \
-#    NfcNci
+PRODUCT_PACKAGES += \
+    nfc_nci.bcm2079x.default \
+    NfcNci
+
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
