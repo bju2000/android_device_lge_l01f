@@ -16,7 +16,7 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_g2-dcm-perf_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_l01f_defconfig
 # TARGET_REQUIRES_BUMP_BOOT := true
 TARGET_REQUIRES_BUMP_RECOVERY := true
 
