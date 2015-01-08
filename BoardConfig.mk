@@ -17,7 +17,7 @@
 include device/lge/g2-common/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := cyanogenmod_l01f_defconfig
-# TARGET_REQUIRES_BUMP_BOOT := true
+TARGET_REQUIRES_BUMP_BOOT := true
 TARGET_REQUIRES_BUMP_RECOVERY := true
 
 TARGET_OTA_ASSERT_DEVICE := d802,g2,galbi,d800,l01f
